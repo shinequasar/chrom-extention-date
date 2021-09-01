@@ -1,25 +1,14 @@
 {
-  "manifest_version": 2, // Manifest 버전 명시. 공식문서 가이드에 따라 `2`로 고정
-  "name": "E&S D-day", // 확장 프로그램 이름
-  "description": "송아지랑 거북이가 만난 날 계산",
-  "version": "1.0.0", // 확장 프로그램 버전
+  "manifest_version": 2, 
+  "name": "E&S D-day",
+  "version": "1.0.0", 
 
   "browser_action": {
-    "default_icon": "./icon/icon.png", // 확장 프로그램의 아이콘
+    "default_icon": "./icon/icon.png", 
     "default_popup" : "popup.html"
   },
 
   "permissions": [
-    "bookmarks",             // 북마크에 접근할 수 있는 API 사용 권한
-    "topSites"               // 자주방문한 사이트 목록을 조회할 수 있는 API 사용 권한
-    // "<all_urls>"          // 모든 호스트(사이트)에 접근할 수 있는 권한
-    // "activeTab",          // 현재 활성중인 탭에 대해 다룰 수 있는 API 사용 권한(활성화 된 탭 추적)
-    // "tabs",               // 열려 있는 탭에 대해 다룰 수 있는 API 사용 권한
-    // "storage",            // 일종의 브라우저 데이터베이스 API 사용 권한
-    // "history",            // 방문기록에 접근할 수 있는 API 사용 권한
-    //"cookies", // 쿠키
-  ],
-  "chrome_settings_overrides":{
-    "search_provider": {"encoding": "UTF-8", "is_default": true}
-  }
+    "bookmarks"
+  ]
 }

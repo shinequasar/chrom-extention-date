@@ -1,3 +1,17 @@
 #title {
     font-family: 'Jua', sans-serif;
+    height: 100px;
+}
+
+#date {
+    font-family: 'Jua', sans-serif;
+    height: 80px;
+}
+
+#date > h1{
+    width: 100px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 8px;
+    border-radius: 9%;
 }

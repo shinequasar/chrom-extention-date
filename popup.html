@@ -16,19 +16,16 @@
     <link rel="stylesheet" href="./css/popup.css">
     <!-- script -->
     <script src="./js/includeHTML.js"></script>
-    <style>
-        body {
-            width: 400px;
-            min-height: 250px;
-            padding: 1rem;
-            background-color: #ffcbcb;
-        }
-    </style>
 </head>
 
 <body>
-    <div data-include-path="./html/title.html"></div>
+    <header data-include-path="./html/title.html"></header>
+    <div id="date" class="text-center bg-white container pb-5">
+        <h2>D-Day</h2>
+        <h1 id="dday" class="bg-danger">0</h1>
+    </div>
     <div data-include-path="./html/date.html"></div>
+    <script type="text/javascript" src="./js/popup.js"></script>
 </body>
 
 </html>

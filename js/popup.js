@@ -1,10 +1,5 @@
-function calculateDate(){
-    var startDate = new Date('29/08/2020 00:00:00');
-    var nowDate = new Date();
-    var dDay = nowDate - startDate;
-
-    var esDay = d;
-    document.getelementbyid('title').innerText = "dmmm";
-    // document.body.innerText = nowTime;
-}
-window.onload = calculateDate;
+var startDate = new Date('2020,8,29');
+var nowDate = new Date();
+var gap = nowDate.getTime() - startDate.getTime();
+var dDay = Math.floor(gap/ (1000 * 60 * 60 * 24))+1;
+document.getElementById('dday').innerText = dDay;

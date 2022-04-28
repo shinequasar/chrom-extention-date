@@ -12,7 +12,7 @@ body {
 
 #date {
     font-family: 'Jua', sans-serif;
-    height: 80px;
+    height: 100px;
 }
 
 #date > h1{
@@ -20,7 +20,7 @@ body {
     color: white;
     margin: 0 auto;
     padding-top: 8px;
-    border-radius: 9%;
+    border-radius: 10px;
 }
 
 #setting {
@@ -28,11 +28,12 @@ body {
 }
 
 #setting > h3{
-    width: 100px;
+    width: 120px;
     background-color: rgb(22, 22, 22);
     color: white;
     margin: 0 auto;
     padding-top: 8px;
     padding-bottom: 8px;
     margin-bottom: 13px;
+    border-radius: 10px;
 }
